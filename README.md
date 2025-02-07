@@ -2,7 +2,7 @@
 
 ## Overview
 This repository contains a Jupyter Notebook that demonstrates how to prepare and analyze the MNIST dataset for a binary classification task.
-The primary focus is to identify whether a given handwritten digit is a "5" or not. The notebook guides you through loading the data, visualizing sample images, preprocessing, and converting the multi-class labels into binary labels.
+The primary focus is to identify whether a given handwritten digit is a "5" or not. The notebook goes through loading the data, visualizing sample images, preprocessing, converting the multi-class labels into binary labels, and training a binary classifier.
 
 ## Features
 - **Data Loading:** Retrieves the MNIST dataset using Scikit-Learn's `fetch_openml`.
