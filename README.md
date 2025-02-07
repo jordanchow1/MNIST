@@ -9,4 +9,4 @@ The primary focus is to identify whether a given handwritten digit is a "5" or n
 - **Data Visualization:** Uses Matplotlib to display sample digit images, ensuring that the image data is correctly reshaped.
 - **Preprocessing:** Converts raw labels to `uint8` type and splits the dataset into training and testing sets.
 - **Binary Labeling:** Transforms the original multi-class labels into binary labels for the digit "5" (i.e., `True` if the digit is 5, `False` otherwise).
-- **Foundations for Model Training:** Although no classifier is trained in this notebook, the data is fully prepared for training a binary classifier using algorithms such as logistic regression, SVM, or SGDClassifier.
+- **Foundations for Model Training:** The data is fully prepared for training a binary classifier using algorithms such as logistic regression, SVM, or SGDClassifier.
