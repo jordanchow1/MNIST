@@ -9,14 +9,15 @@ The primary focus is to identify whether a given handwritten digit is a "5" or n
 - **Data Visualization:** Uses Matplotlib to display sample digit images, ensuring that the image data is correctly reshaped.
 - **Preprocessing:** Converts raw labels to `uint8` type and splits the dataset into training and testing sets.
 - **Binary Labeling:** Transforms the original multi-class labels into binary labels for the digit "5" (i.e., `True` if the digit is 5, `False` otherwise).
-- **Foundations for Model Training:** The data is fully prepared for training a binary classifier using algorithms such as logistic regression, SVM, or SGDClassifier.
+- **Model Training:** The data is fully prepared for training a binary classifier using algorithms such as logistic regression, SVM, or SGDClassifier.
 
 ## Dataset
 The MNIST dataset is composed of 70,000 grayscale images of handwritten digits (0-9). Each image is 28x28 pixels, flattened into a 784-dimensional vector. In this project:
 
 Training Set: The first 60,000 images.
 Test Set: The remaining 10,000 images.
-Data Preparation and Binary Classification
+
+## Data Preparation and Binary Classification
 The notebook performs the following key steps:
 
 ### Loading the Data: Fetches the MNIST dataset and converts it into NumPy arrays.
