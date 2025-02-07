@@ -28,8 +28,6 @@ Splits the dataset into training (60,000 examples) and testing (10,000 examples)
 Binary Label Conversion: Creates new label arrays (y_train_5 and y_test_5) where each label is a boolean:
 True if the original label is 5.
 False otherwise.
-Results
-The exploratory data analysis in the notebook yielded the following outcomes:
 
 ### Data Shape Confirmation:
 
