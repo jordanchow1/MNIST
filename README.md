@@ -43,3 +43,9 @@ Visualization:
 
 A sample digit is reshaped from a 784-dimensional vector back to a 28x28 image and visualized using Matplotlib.
 The successful display of the image confirms that the reshaping and plotting processes are functioning as intended.
+
+### Model Training
+A binary classifier was trained using the SGD (Stochastic Gradient Descent) Classifier class, which has the advantage of being capable of handling very large datasets.
+
+### Cross Validation
+Cross validation was performed in order to measure the performance of the model. Precision, recall, and F1 score were also computed.
